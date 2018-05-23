@@ -19,6 +19,21 @@ body {
   margin: 10px;
 }
 
+#card.middle {
+  width: auto;
+  clear: both;
+}
+
+#card.left {
+  width: 45%;
+  float: left;
+}
+
+#card/right {
+  width: 45%;
+  float: right;
+}
+
 /* NAV */
 
 #nav {
