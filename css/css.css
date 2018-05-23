@@ -22,6 +22,7 @@ body {
 #nav li {
   padding: 16px;
   float: left;
+  text-align: center;
 }
 
 #nav ul li {
