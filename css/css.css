@@ -19,6 +19,7 @@ body {
 
 #nac li {
   display: inline;
+  padding: 16px;
 }
 
 #nav ul li {
