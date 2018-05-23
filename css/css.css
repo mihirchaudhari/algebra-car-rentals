@@ -18,12 +18,12 @@ body {
 }
 
 #nav li {
-  display: inline;
   padding: 16px;
 }
 
 #nav ul li {
   background-color: #ffface;
+  display: inline;
 }
 
 #nav li:hover {
