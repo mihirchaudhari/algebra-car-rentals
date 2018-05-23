@@ -10,6 +10,8 @@ body {
 #nav {}
 
 #nav ul li {
+  display: inline;
+  list-style: none;
   background-color: #ffface;
 }
 
