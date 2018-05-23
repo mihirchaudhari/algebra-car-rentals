@@ -23,6 +23,7 @@ body {
   padding: 16px;
   float: left;
   text-align: center;
+  cursor: pointer;
 }
 
 #nav ul li {
