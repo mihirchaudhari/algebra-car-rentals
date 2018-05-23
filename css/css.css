@@ -7,7 +7,9 @@ body {
 
 /* NAV */
 
-#nav {}
+#nav {
+  font-family: sans-serif;
+}
 
 #nav ul {
   list-style: none;
