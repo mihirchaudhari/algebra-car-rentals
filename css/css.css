@@ -1,0 +1,18 @@
+/* SECTIONS */
+
+body {
+  margin: 0;
+  background-color: 35ccff;
+}
+
+/* NAV */
+
+#nav {}
+
+#nav ul li {
+  background-color: #ffface;
+}
+
+#nav li:hover {
+  background-color: #fff160;
+}
