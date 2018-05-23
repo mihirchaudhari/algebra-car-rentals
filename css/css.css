@@ -6,15 +6,15 @@ body {
 }
 
 #section {
-  background-color: #ffface;
+  background-color: #ffffff;
   box-shadow: 3px 3px 10px #2ba5ce;
   overflow: hidden;
   margin: 10px;
 }
 
 #card {
-  background-color: #ffffff;
-  box-shadow: #35ccff;
+  background-color: #35ccf;
+  box-shadow: #cccccc;
   overflow: hidden;
   margin: 10px;
 }
