@@ -5,6 +5,20 @@ body {
   background-color: #35ccff;
 }
 
+#section {
+  background-color: #ffface;
+  box-shadow: 3px 3px 10px #2ba5ce;
+  overflow: hidden;
+  margin: 10px;
+}
+
+#card {
+  background-color: #ffffff;
+  box-shadow: #35ccff;
+  overflow: hidden;
+  margin: 10px;
+}
+
 /* NAV */
 
 #nav {
