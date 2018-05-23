@@ -2,23 +2,25 @@
 
 body {
   margin: 0;
-  background-color: #35ccff;
+  background-color: #ffffff;
 }
 
 #section {
-  background-color: #ffffff;
+  background-color: #35ccff;
   box-shadow: 3px 3px 10px #2ba5ce;
   overflow: hidden;
   margin: 10px;
   border-radius: 5px;
+  font-family: sans-serif;
 }
 
 #card {
-  background-color: #35ccf;
-  box-shadow: #cccccc;
+  background-color: #ffffff;
+  box-shadow: #2ba5ce;
   overflow: hidden;
   margin: 10px;
   border-radius: 5px;
+  font-family: sans-serif;
 }
 
 #card.middle {
