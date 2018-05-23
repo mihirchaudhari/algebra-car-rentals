@@ -6,8 +6,8 @@ body {
 }
 
 #section {
-  background-color: #35ccff;
-  box-shadow: 3px 3px 10px #2ba5ce;
+  background-color: #49b8dd;
+  box-shadow: 3px 3px 10px #cccccc;
   overflow: hidden;
   margin: 10px;
   border-radius: 5px;
@@ -16,11 +16,12 @@ body {
 
 #card {
   background-color: #ffffff;
-  box-shadow: #2ba5ce;
+  box-shadow: 3px 3px 10px #31819b;
   overflow: hidden;
   margin: 10px;
   border-radius: 5px;
-  font-family: sans-serif;
+  radius: 5px
+
 }
 
 #card.middle {
@@ -42,6 +43,7 @@ body {
 
 #nav {
   font-family: sans-serif;
+  color: #ffffff;
 }
 
 #nav ul {
@@ -49,8 +51,7 @@ body {
   padding: 0;
   margin: 0;
   overflow: hidden;
-  /*background-color: #ffface;*/
-  background-color: #ffffff;
+  background-color: #49b8dd;
 }
 
 #nav li {
@@ -58,6 +59,10 @@ body {
   float: left;
   text-align: center;
   cursor: pointer;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
 }
 
 #nav ul li {
@@ -65,7 +70,19 @@ body {
 }
 
 #nav li:hover {
-  /*background-color: #fff160;*/
-  background-color: #3a3a3a;
-  color: #ffffff;
+  background-color: #31819b;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+/* TEXT */
+
+p {
+  padding: 20px
+}
+
+h2 {
+  padding: 10px
 }
