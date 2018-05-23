@@ -9,9 +9,15 @@ body {
 
 #nav {}
 
-#nav ul li {
-  display: inline;
+#nav ul {
   list-style: none;
+}
+
+#nac li {
+  display: inline;
+}
+
+#nav ul li {
   background-color: #ffface;
 }
 
