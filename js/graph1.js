@@ -1,5 +1,5 @@
-google.charts.load('current', {packages: ['corechart', 'line']});
-google.charts.setOnLoadCallback(drawBackgroundColor);
+google.charts.load('current', {packages: ['line']});
+google.charts.setOnLoadCallback(drawChart);
 
 function drawBackgroundColor() {
   var data = new google.visualization.DataTable();
@@ -31,6 +31,6 @@ function drawBackgroundColor() {
     backgroundColor: '#ffffff',
   };
   
-  var chart = new google.visualization.LineChart(document.getElementById('graph1'));
+  var chart = new google.charts.Line(document.getElementById('graph1'));
   chart.draw(data, options);
 }
