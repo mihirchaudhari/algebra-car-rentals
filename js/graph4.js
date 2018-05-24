@@ -27,9 +27,7 @@ function drawChart() {
     vAxis: {
       title: 'Cost'
     },
-    title: {
-      'Bronco Rentals'
-    },
+    title: 'Bronco Rentals',
     backgroundColor: '#ffffff',
     width: 900,
     height: 500
