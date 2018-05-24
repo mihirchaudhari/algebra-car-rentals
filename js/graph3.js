@@ -27,9 +27,7 @@ function drawChart() {
     vAxis: {
       title: 'Cost'
     },
-    title: {
-      'Alamo Rentals'
-    },
+    title: 'Alamo Rentals',
     backgroundColor: '#ffffff',
     width: 900,
     height: 500
