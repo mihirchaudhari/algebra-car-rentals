@@ -45,11 +45,13 @@ body {
 #card.left {
   width: 45%;
   float: left;
+  clear: right;
 }
 
 #card.right {
   width: 45%;
   float: right;
+  clear: left;
 }
 
 @keyframes slide {
