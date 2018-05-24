@@ -34,6 +34,6 @@ function drawChart() {
     height: 500
   };
   
-  var chart = new google.chart.Line(document.getElementById('graph1'));
+  var chart = new google.charts.Line(document.getElementById('graph2'));
   chart.draw(data, options);
 }
