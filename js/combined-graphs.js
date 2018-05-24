@@ -1,7 +1,7 @@
-google.charts.load('current', {packages: ['corechart', 'line']});
-google.charts.setOnLoadCallback(drawBackgroundColor);
+google.charts.load('current', {packages: ['line']});
+google.charts.setOnLoadCallback(drawChart);
 
-function drawBackgroundColor() {
+function drawChart() {
   var data = new google.visualization.DataTable();
   data.addColumn('number', 'X');
   data.addColumn('number', 'Enterprise Rentals');
@@ -30,14 +30,13 @@ function drawBackgroundColor() {
     vAxis: {
       title: 'Cost'
     },
-    title: {
-      'Enterprise Rentals'
-    },
-    backgroundColor: '#ffffff'
+    title: 'All Car Rentals',
+    subtitle: 'Side by side',
+    backgroundColor: '#ffffff',
     width: 900,
     height: 500
   };
   
-  var chart = new google.visualization.LineChart(document.getElementById('graph1'));
+  var chart = new google.charts.Line(document.getElementById('combined-graphs'));
   chart.draw(data, options);
 }
