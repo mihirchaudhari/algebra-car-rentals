@@ -29,8 +29,6 @@ function drawBackgroundColor() {
     },
     title:'Enterprise Rentals',
     backgroundColor: '#ffffff',
-    width: 900,
-    height: 500
   };
   
   var chart = new google.visualization.LineChart(document.getElementById('graph1'));
