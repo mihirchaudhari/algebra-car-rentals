@@ -31,6 +31,7 @@ function drawChart() {
       'Enterprise Rentals 2'
     },
     backgroundColor: '#ffffff',
+    wdith: 900,
     height: 500
   };
   
