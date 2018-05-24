@@ -31,6 +31,7 @@ function drawChart() {
       'Alamo Rentals'
     },
     backgroundColor: '#ffffff',
+    width: 900,
     height: 500
   };
   
