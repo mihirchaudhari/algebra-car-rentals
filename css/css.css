@@ -5,6 +5,12 @@ body {
   background-color: #ffffff;
 }
 
+#blank {
+ background-color: #ffffff;
+ margin: 10px;
+ height: 200px;
+}
+
 #section {
   background-color: #49b8dd;
   box-shadow: 3px 3px 10px #cccccc;
@@ -12,6 +18,11 @@ body {
   margin: 10px;
   border-radius: 5px;
   font-family: sans-serif;
+  position: relative;
+  animation-fill-mode: forwards;
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-delay: 1s;
 }
 
 #card {
@@ -37,6 +48,11 @@ body {
 #card.right {
   width: 45%;
   float: right;
+}
+
+@keyframes slide {
+  0% {bottom: 0px}
+  100% {bottom: 200px}
 }
 
 /* NAV */
