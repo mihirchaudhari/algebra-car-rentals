@@ -1,7 +1,7 @@
-google.charts.load('current', {packages: ['corechart', 'line']});
-google.charts.setOnLoadCallback(drawBackgroundColor);
+google.charts.load('current', {packages: ['line']});
+google.charts.setOnLoadCallback(drawChart);
 
-function drawBackgroundColor() {
+function drawChart() {
   var data = new google.visualization.DataTable();
   data.addColumn('number', 'X');
   data.addColumn('number', 'Total Cost');
@@ -30,11 +30,10 @@ function drawBackgroundColor() {
     title: {
       'Alamo Rentals'
     },
-    backgroundColor: '#ffffff'
-    width: 900,
+    backgroundColor: '#ffffff',
     height: 500
   };
   
-  var chart = new google.visualization.LineChart(document.getElementById('graph1'));
+  var chart = new google.charts.Line(document.getElementById('graph3'));
   chart.draw(data, options);
 }
