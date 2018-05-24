@@ -1,7 +1,7 @@
 google.charts.load('current', {packages: ['line']});
 google.charts.setOnLoadCallback(drawChart);
 
-function drawBackgroundColor() {
+function drawChart() {
   var data = new google.visualization.DataTable();
   data.addColumn('number', 'X');
   data.addColumn('number', 'Total Cost');
