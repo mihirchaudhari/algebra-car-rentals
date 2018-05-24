@@ -102,9 +102,12 @@ body {
 /* TEXT */
 
 p {
-  padding: 20px
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 h2 {
-  padding: 10px
+  padding: 10px;
+  padding-left: 20px;
 }
