@@ -22,7 +22,7 @@ body {
   position: relative;
   animation-fill-mode: forwards;
   animation-name: slide;
-  animation-duration: 2s;
+  animation-duration: 0.5s;
   animation-delay: 0.25s;
   opacity: 0;
 }
