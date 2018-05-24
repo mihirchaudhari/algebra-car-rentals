@@ -31,6 +31,7 @@ function drawChart() {
       'Bronco Rentals'
     },
     backgroundColor: '#ffffff',
+    width: 900,
     height: 500
   };
   
