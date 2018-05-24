@@ -27,9 +27,7 @@ function drawChart() {
     vAxis: {
       title: 'Cost'
     },
-    title: {
-      'Enterprise Rentals 2'
-    },
+    title: 'Enterprise Rentals 2',
     backgroundColor: '#ffffff',
     wdith: 900,
     height: 500
