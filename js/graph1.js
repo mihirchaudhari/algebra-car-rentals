@@ -27,8 +27,9 @@ function drawBackgroundColor() {
     vAxis: {
       title: 'Cost'
     },
-    title: 'Enterprise Rentals'
-  },
+    title: {
+      'Enterprise Rentals'
+    },
     backgroundColor: '#ffffff'
     width: 900,
     height: 500
