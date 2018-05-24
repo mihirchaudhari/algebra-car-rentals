@@ -23,7 +23,6 @@ body {
   animation-fill-mode: forwards;
   animation-name: slide;
   animation-duration: 1s;
-  animation-delay: 0.25s;
   opacity: 0;
 }
 
