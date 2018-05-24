@@ -127,11 +127,15 @@ table {
 }
 
 tr:hover {
-  background-color: #cccccc;
+  background-color: #ededed;
+}
+
+td: hover {
+  background-color: #ffffff;
 }
 
 th, td {
   text-align: center;
   padding: 10px;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #ededed;
 }
