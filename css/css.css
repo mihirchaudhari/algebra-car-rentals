@@ -127,7 +127,12 @@ table {
   margin: auto;
 }
 
+tr:hover {
+  background-color: #cccccc;
+}
+
 th, td {
   text-align: center;
   padding: 10px;
+  border-bottom: 1px solid #cccccc;
 }
