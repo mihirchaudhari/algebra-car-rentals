@@ -69,11 +69,13 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
+  overflow: hidden;
   background-color: #49b8dd;
 }
 
 #nav li {
   padding: 16px;
+  float: left;
   text-align: center;
   cursor: pointer;
   -webkit-transition: background-color 0.5s ease-out;
@@ -82,25 +84,8 @@ body {
   transition: background-color 0.5s ease-out;
 }
 
-#nav li.navRight { float: right; }
-
 #nav ul li {
   display: inline;
-}
-
-#nav a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-#nav a:hover {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-#nav a:visited {
-  text-decoration: none;
-  color: #ffffff;
 }
 
 #nav li:hover {
@@ -113,6 +98,16 @@ body {
 
 .active {
   background-color: #31819b;
+}
+
+#nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#nav a:visited {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 /* TEXT */
