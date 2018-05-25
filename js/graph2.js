@@ -27,12 +27,14 @@ function drawChart() {
     vAxis: {
       title: 'Cost'
     },
-    title: 'Enterprise Rentals 2',
+    chart: {
+      title: 'Enterprise Rentals 2'
+    },
     backgroundColor: '#ffffff',
     wdith: 900,
     height: 500
   };
   
   var chart = new google.charts.Line(document.getElementById('graph2'));
-  chart.draw(data, options);
+  chart.draw(data, google.charts.Line.convertOptions(options));
 }
