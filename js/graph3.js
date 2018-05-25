@@ -27,10 +27,12 @@ function drawChart() {
     vAxis: {
       title: 'Cost'
     },
-    chart {
+    chart: {
       title: 'Alamo Rentals'
     },
-    backgroundColor: '#ffffff'
+    backgroundColor: '#ffffff',
+    width: 900,
+    height: 500
   };
   
   var chart = new google.charts.Line(document.getElementById('graph3'));
