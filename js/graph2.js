@@ -32,7 +32,8 @@ function drawChart() {
     },
     backgroundColor: '#ffffff',
     wdith: 900,
-    height: 500
+    height: 500,
+    lineWidth: 5
   };
   
   var chart = new google.charts.Line(document.getElementById('graph2'));
