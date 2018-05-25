@@ -11,12 +11,14 @@ body {
  height: 200px;
 }
 
+div {
+  margin: 10px;
+  padding: 10px;
+}
 #section {
   background-color: #49b8dd;
   box-shadow: 3px 3px 10px #cccccc;
   overflow: hidden;
-  margin: 10px;
-  padding: 10px;
   border-radius: 5px;
   font-family: sans-serif;
   position: relative;
@@ -30,8 +32,6 @@ body {
   background-color: #ffffff;
   box-shadow: 3px 3px 10px #31819b;
   overflow: hidden;
-  margin: 10px;
-  border-radius: 5px;
   radius: 5px
 
 }
