@@ -11,15 +11,13 @@ body {
  height: 200px;
 }
 
-div {
-  margin: 10px;
-  padding: 10px;
-}
 #section {
   background-color: #49b8dd;
   box-shadow: 3px 3px 10px #cccccc;
   overflow: hidden;
   border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
   font-family: sans-serif;
   position: relative;
   animation-fill-mode: forwards;
@@ -30,6 +28,8 @@ div {
 
 #card {
   background-color: #ffffff;
+  margin: 10px;
+  padding: 10px;
   box-shadow: 3px 3px 10px #31819b;
   overflow: hidden;
   radius: 5px
