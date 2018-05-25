@@ -23,7 +23,7 @@ body {
   animation-fill-mode: forwards;
   animation-name: slide;
   animation-duration: 1s;
-  opacity: 0;
+  /*opacity: 0;*/
 }
 
 #card {
