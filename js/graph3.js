@@ -28,7 +28,8 @@ function drawChart() {
       title: 'Cost'
     },
     chart: {
-      title: 'Alamo Rentals'
+      title: 'Alamo Rentals',
+      subtitle: 'y = 45x + 55'
     },
     backgroundColor: '#ffffff',
     width: 900,
