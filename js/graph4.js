@@ -27,12 +27,14 @@ function drawChart() {
     vAxis: {
       title: 'Cost'
     },
-    title: 'Bronco Rentals',
+    chart: {
+      title: 'Bronco Rentals'
+    },
     backgroundColor: '#ffffff',
     width: 900,
     height: 500
   };
   
-  var chart = new google.charts.Line(document.getElementById('graph1'));
-  chart.draw(data, options);
+  var chart = new google.charts.Line(document.getElementById('graph4'));
+  chart.draw(data, google.charts.Line.convertOptions(options));
 }
