@@ -39,5 +39,5 @@ function drawChart() {
   };
   
   var chart = new google.charts.Line(document.getElementById('combined-graphs'));
-  chart.draw(data, options);
+  chart.draw(data, google.charts.Line.convertOptions(options));
 }
