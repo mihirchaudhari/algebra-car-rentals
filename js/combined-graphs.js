@@ -34,7 +34,8 @@ function drawChart() {
     subtitle: 'Side by side',
     backgroundColor: '#ffffff',
     width: 900,
-    height: 500
+    height: 500,
+    lineWidth: 5
   };
   
   var chart = new google.charts.Line(document.getElementById('combined-graphs'));
