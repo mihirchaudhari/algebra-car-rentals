@@ -32,7 +32,7 @@ body {
   padding: 10px;
   box-shadow: 3px 3px 10px #31819b;
   overflow: hidden;
-  radius: 5px
+  border-radius: 5px;
 
 }
 
