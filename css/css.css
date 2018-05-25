@@ -117,14 +117,6 @@ body {
   background-color: #31819b;
 }
 
-@media screen and (max-width: 600px){
-  #nav li.navRight, #nav li {
-    float: none;
-    clear: both;
-  }
-  #nav ul li { display: block }
-}
-
 /* TEXT */
 
 p {
