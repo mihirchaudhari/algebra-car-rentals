@@ -31,7 +31,7 @@ body {
   margin: 10px;
   padding: 10px;
   box-shadow: 3px 3px 10px #31819b;
-  overflow: hidden;
+  overflow: auto;
   border-radius: 5px;
 
 }
