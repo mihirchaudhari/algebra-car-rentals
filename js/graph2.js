@@ -28,7 +28,8 @@ function drawChart() {
       title: 'Cost'
     },
     chart: {
-      title: 'Enterprise Rentals 2'
+      title: 'Enterprise Rentals 2',
+      subtitle: 'y = 60x + 150'
     },
     backgroundColor: '#ffffff',
     wdith: 900,
