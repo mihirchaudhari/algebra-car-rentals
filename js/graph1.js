@@ -31,6 +31,8 @@ function drawChart() {
       title:'Enterprise Rentals'
     },
     backgroundColor: '#ffffff',
+    width: 900,
+    height: 400
   };
   
   var chart = new google.charts.Line(document.getElementById('graph1'));
