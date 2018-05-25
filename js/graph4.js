@@ -28,7 +28,8 @@ function drawChart() {
       title: 'Cost'
     },
     chart: {
-      title: 'Bronco Rentals'
+      title: 'Bronco Rentals',
+      subtitle: 'y = 50x + 100'
     },
     backgroundColor: '#ffffff',
     width: 900,
