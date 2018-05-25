@@ -30,6 +30,12 @@ function drawChart() {
     chart: {
       title:'Enterprise Rentals'
     },
+    chartArea: {
+      left:0,
+      top:0,
+      width:"50%",
+      height:"50%"
+    },
     backgroundColor: '#ffffff',
     width: 900,
     height: 400,
