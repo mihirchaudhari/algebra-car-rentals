@@ -53,10 +53,10 @@ body {
   clear: right;
 }
 
-@keyframes slide {
+/*@keyframes slide {
   0% {bottom: 0px; opactiy: 0;}
   100% {bottom: 200px; opacity: 1;}
-}
+}*/
 
 /* NAV */
 
