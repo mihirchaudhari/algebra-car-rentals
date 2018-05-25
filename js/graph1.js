@@ -28,7 +28,8 @@ function drawChart() {
       title: 'Cost'
     },
     chart: {
-      title:'Enterprise Rentals'
+      title:'Enterprise Rentals',
+      subtitle: 'y = 60x'
     },
     chartArea: {
       left:0,
