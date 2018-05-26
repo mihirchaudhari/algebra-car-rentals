@@ -31,7 +31,7 @@ body {
   margin: 10px;
   padding: 10px;
   box-shadow: 3px 3px 10px #31819b;
-  overflow: auto;
+  overflow: hidden;
   border-radius: 5px;
 
 }
@@ -51,6 +51,11 @@ body {
   width: 45%;
   float: right;
   clear: right;
+}
+
+#rationale {
+  position: relative;
+  left: 20px;
 }
 
 @keyframes slide {
@@ -241,4 +246,12 @@ th, td {
 .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
+}
+
+/* IMAGES */
+
+.center {
+  display: block;
+  margin-left: auto;   
+  margin-right: auto;
 }
